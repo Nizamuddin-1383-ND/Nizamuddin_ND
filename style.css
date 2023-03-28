@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0a0a0a;
+  color: white;
+  font-family: "Space Mono", monospace;
+  text-align: center;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./drowing_city.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.name {
+ 
+  margin-top: 70px;
+  text-align: center;
+  font-family: "Cinzel Decorative", cursive;
+  background-position: center;
+}
+.peo {
+  text-align: center;
+}
+.my_photo{
+width: 180px;
+margin-top: 30px;
+border-radius: 50%;
+  }
+  h4{
+    margin-bottom: 30px;
+  }
+  p{
+    margin-bottom: 60px;
+  }
+  hr{
+    border-top: 2px;
+    color: aliceblue;
+    margin-bottom: 20px;
+  }
+  .fox{
+    width: 180px;
+margin-top: 30px;
+
+  }
+  .jj{
+    margin-top: 10px;
+    font-family: "Cinzel Decorative", cursive;
+  }
+  .ter{
+    transform: rotate(89deg);
+    position: absolute;
+    margin-top: 55px;
+  }
+  .see{
+    width: 80px;
+  }

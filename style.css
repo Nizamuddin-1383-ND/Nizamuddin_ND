@@ -25,54 +25,77 @@ body {
 }
 
 .name {
- 
   margin-top: 70px;
   text-align: center;
   font-family: "Cinzel Decorative", cursive;
   background-position: center;
-} 
+}
 .peo {
   text-align: center;
 }
-.my_photo{
-width: 180px;
-margin-top: 30px;
-border-radius: 50%;
-  }
-  h4{
-    margin-bottom: 30px;
-  }
-  p{
-    margin-bottom: 60px;
-  }
-  hr{
-    border-top: 2px;
-    color: aliceblue;
-    margin-bottom: 20px;
-  }
-  .fox{
-    width: 180px;
-margin-top: 30px;
+.my_photo {
+  width: 180px;
+  margin-top: 30px;
+  border-radius: 50%;
+}
+h4 {
+  margin-bottom: 30px;
+}
+p {
+  margin-bottom: 60px;
+}
+hr {
+  border-top: 2px;
+  color: aliceblue;
+  margin-bottom: 20px;
+}
+.fox {
+  width: 180px;
+  margin-top: 30px;
+}
+.jj {
+  margin-top: 10px;
+  margin-bottom: 130px;
+  font-family: "Cinzel Decorative", cursive;
+}
+.ter {
+  transform: rotate(89deg);
+  position: absolute;
+  margin-top: 55px;
+}
+.see {
+  width: 80px;
+}
+p {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.bottom-container {
+  margin-bottom: 20px;
+}
+/*  */
 
-  }
-  .jj{
-    margin-top: 10px;
-    font-family: "Cinzel Decorative", cursive;
-  }
-  .ter{
-    transform: rotate(89deg);
-    position: absolute;
-    margin-top: 55px;
-  }
-  .see{
-    width: 80px;
-  }
-  p{
-    
-    margin-left: 20px;
-    margin-right: 20px;
-
-  }
-  .bottom-container{
-    margin-bottom: 120px;
-  }
+.shirt {
+  height: 12px;
+  width: 12px;
+}
+.insta {
+  height: 12px;
+  width: 12px;
+}
+.face {
+  height: 20px;
+  width: 20px;
+}
+.twit {
+  height: 12px;
+  width: 12px;
+}
+.in {
+  height: 12px;
+  width: 12px;
+}
+.email {
+  height: 22px;
+  width: 22px;
+}

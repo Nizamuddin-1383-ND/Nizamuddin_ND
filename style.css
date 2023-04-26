@@ -6,7 +6,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+.gitH {
+  margin-top: 700px;
+}
 body {
   background-color: #0a0a0a;
   color: white;
@@ -55,12 +57,15 @@ hr {
 }
 .jj {
   margin-top: 10px;
+  margin-bottom: 40px;
   font-family: "Cinzel Decorative", cursive;
 }
 .ter {
   transform: rotate(89deg);
-  position: absolute;
   margin-top: 55px;
+  position: fixed;
+  top: 0;
+  right: 0;
 }
 .see {
   width: 80px;
@@ -90,6 +95,9 @@ p {
   height: 12px;
   width: 12px;
 }
+.contact-me {
+  margin-top: 50px;
+}
 .in {
   height: 12px;
   width: 12px;
@@ -99,7 +107,7 @@ p {
   width: 22px;
 }
 /* animation name */
-.ani{
+.ani {
   width: 100px;
   height: 50px;
 
@@ -111,6 +119,37 @@ p {
   animation-timing-function: ease-in-out;
 }
 @keyframes mymove {
-  from {left: -100px;}
-  to {left: 100%;}
+  from {
+    left: 100px;
+  }
+  to {
+    left: 100%;
+  }
+}
+.divHr {
+  width: 101.17%;
+  height: 2px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  animation-name: example;
+  animation-duration: 0.5s;
+  animation-iteration-count: 2000000;
+  animation-direction: alternate-reverse;
+}
+@keyframes example {
+  0% {
+    background-color: rgb(255, 255, 255);
+  }
+  25% {
+    background-color: rgb(177, 177, 177);
+  }
+  50% {
+    background-color: rgb(104, 104, 104);
+  }
+  75% {
+    background-color: rgb(51, 51, 51);
+  }
+  100% {
+    background-color: rgb(3, 3, 3);
+  }
 }

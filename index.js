@@ -28,7 +28,11 @@ function getRndInteger(min, max) {
         loveScore +
         "%, 🤭😆 Poor " +
         yourName +
-        "!, your love is falled don't try🤣"
+        "!, your love is falled don't try on it🤣"
     );
   }
+}
+
+function openPhoto() {
+  window.open("Venture_logo.png", "_blank", "width=600,height=600");
 }

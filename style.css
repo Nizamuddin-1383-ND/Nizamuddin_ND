@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap");
-
-@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -12,11 +12,29 @@
 body {
   background-color: #0a0a0a;
   color: white;
-  font-family: "Space Mono", monospace;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
+  overflow-x: hidden;
 }
-
-.container {
+.back {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#myVideo {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  object-fit: cover;
+}
+/* .container {
   width: 100vw;
   height: 100vh;
   background-image: url("./drowing_city.png");
@@ -24,13 +42,11 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
-}
+} */
 
 .name {
-  margin-top: 70px;
-  text-align: center;
-  font-family: "Cinzel Decorative", cursive;
-  background-position: center;
+  font-size: 90px;
+  font-family: 'Bebas Neue', sans-serif;
 }
 .peo {
   text-align: center;
@@ -107,25 +123,7 @@ p {
   width: 22px;
 }
 /* animation name */
-.ani {
-  width: 100px;
-  height: 50px;
-  font-weight: bold;
-  position: relative;
-  animation: mymove 13s infinite;
-}
 
-.ani {
-  animation-timing-function: ease-in-out;
-}
-@keyframes mymove {
-  from {
-    left: -5%;
-  }
-  to {
-    left: 100%;
-  }
-}
 .divHr {
   width: 101.17%;
   height: 2px;
@@ -133,7 +131,7 @@ p {
   position: relative;
   animation-name: example;
   animation-duration: 0.5s;
-  animation-iteration-count: 2000000;
+  animation-iteration-count: 200000000000;
   animation-direction: alternate-reverse;
 }
 @keyframes example {
@@ -141,16 +139,16 @@ p {
     background-color: rgb(255, 255, 255);
   }
   25% {
-    background-color: rgb(177, 177, 177);
+    background-color: rgb(214, 214, 214);
   }
   50% {
-    background-color: rgb(104, 104, 104);
+    background-color: rgb(177, 177, 177);
   }
   75% {
-    background-color: rgb(51, 51, 51);
+    background-color: rgb(155, 155, 155);
   }
   100% {
-    background-color: rgb(3, 3, 3);
+    background-color: rgb(114, 114, 114);
   }
 }
 .vvv {
@@ -166,7 +164,7 @@ p {
   cursor: pointer;
   font-family: "Cinzel Decorative", cursive;
 }
-.hrBotom{
+.hrBotom {
   width: 101.17%;
   height: 8px;
   background-color: rgb(255, 255, 255);
@@ -174,7 +172,7 @@ p {
   animation-name: hrBoto;
   animation-duration: 2.5s;
   animation-iteration-count: 2000000;
-  animation-direction: alternate-reverse; 
+  animation-direction: alternate-reverse;
 }
 @keyframes hrBoto {
   0% {
@@ -186,5 +184,4 @@ p {
   100% {
     background-color: rgb(30, 255, 0);
   }
- 
 }

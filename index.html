@@ -17,17 +17,18 @@
 
 <body>
 
-  <div class="allBody">
+  <div class="back">
+    <video autoplay muted loop id="myVideo">
+      <source src="https://static.thesocietymanagement.com/001-Menu.mp4" type="video/mp4">
+    </video>
     <div class="container">
-      <h6 class="ter">SCROLL➾</h6>
-      <div class="ani">
-        <h1>🛸</h1>
-      </div>
+      <h6 class="ter">&lt; SCROLL &gt;</h6>
       <h1 class="name">Nizamuddin</h1>
-
-
-      <p class="peo">A Programer</p>
+      <!-- <p class="peo">A Programer</p> -->
     </div>
+  </div>
+
+  <div class="allBody">
     <img class="my_photo" src="pro.jpg" alt="my_photo" />
     <h4>Hello!</h4>
     <p>
@@ -79,13 +80,13 @@
       <a href="https://www.facebook.com/reshad.mahmoddi.3"><img class="face" src="facebook.svg" alt="" /></a>
     </div>
 
-    <!--  -->
     <a href="https://github.com/Nizamuddin-1383-ND">
       <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
       <lord-icon src="https://cdn.lordicon.com/hbvyhtse.json" trigger="hover" colors="primary:#e4e4e4"
         style="width:30px;height:30px;margin-top: 10px;">
       </lord-icon>
     </a>
+
     <div>
       <button class="vvv" onclick="openPhoto()">Logo</button>
     </div>
@@ -97,12 +98,10 @@
 
     <button style="background-color: rgba(0, 0, 0, 0); border: 0px;cursor: pointer;"
       onclick="document.getElementById('demo').innerHTML = getRndInteger(1,100)">
-      <!--  -->
       <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
       <lord-icon src="https://cdn.lordicon.com/kipaqhoz.json" trigger="loop" delay="100" colors="primary:#e4e4e4"
         state="loop" style="width:30px;height:30px">
       </lord-icon>
-      <!--  -->
     </button>
     <p>Chake your love scor</p>
   </div>
@@ -110,6 +109,7 @@
     <h1></h1>
   </div>
   <script src="index.js"></script>
+
 </body>
 
 
